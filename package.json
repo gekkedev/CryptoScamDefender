@@ -2,8 +2,9 @@
   "name": "crypto-scam-defender",
   "author": "gekkedev",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "faker": "^6.6.6",
+    "@fakerjs/faker": "^3.0.0",
     "node-fetch": "^3.3.2"
   }
 }
