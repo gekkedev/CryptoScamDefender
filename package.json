@@ -4,7 +4,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "@fakerjs/faker": "^3.0.0",
+    "@faker-js/faker": "^8",
     "node-fetch": "^3.3.2"
   }
 }

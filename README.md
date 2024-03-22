@@ -28,7 +28,19 @@ git clone https://github.com/gekkedev/CryptoScamDefender.git
 yarn ci
 ```
 
-3. Read the documentation provided in the `/docs` directory for guidance on legal and safe use of the toolkit.
+## Usage
+
+This script allows you to make a specified number of requests to a given API with randomized data, including random delays between requests to simulate more human-like interactions.
+
+To run the script, you need to specify three parameters: the total number of requests to make, the minimum delay between requests (in milliseconds), and the maximum delay between requests (in milliseconds).
+```bash
+node index.js <totalRequests> <minDelay> <maxDelay>
+```
+### Example
+To make 100 requests with random delays ranging from 0.1 second (100ms) to 15 seconds (15000ms), run the following command:
+```bash
+node index.js 100 150 15000
+```
 
 ## Contributing
 
